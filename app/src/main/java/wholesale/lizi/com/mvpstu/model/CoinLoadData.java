@@ -17,7 +17,7 @@ public class CoinLoadData implements CoinModel {
             CoinBean coin=new CoinBean();
             coin.setDrivecoinnum(i+"");
             coin.setOperationdate("2017-2-4 17:03:40");
-            coin.setRemark("每天首次发表话题赠送"+i+"驾币");
+            coin.setRemark("今天赚了"+i+"金币");
 
             coins.add(coin);
         }
